@@ -13,7 +13,7 @@ public class Server extends UnicastRemoteObject implements IHello {
 	}
 
 	public String sayHello() throws RemoteException {
-		return "Hello World :)";
+		return "Hello World :)";		
 	}
 
 	public static void main(String[] args) {
